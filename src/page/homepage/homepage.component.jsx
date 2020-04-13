@@ -22,19 +22,12 @@ const HomePage = () => {
         email: '',
         password: ''
     });
-
-    const { email, password } = userCredentials;
-
     const handleSubmit = async event => {
         event.preventDefault();
-
     };
-
     const handleChange = event => {
         const { value, name } = event.target;
-
         setCredentials({ ...userCredentials, [name]: value });
-        console.log({ email, password });
     };
     return (
         <>
@@ -70,11 +63,13 @@ const HomePage = () => {
                             handleChange={handleChange}
                             label='password'
                             required />
-
                     </div>
                     <LinkSignIn onClick={handleSubmit}>Sign In</LinkSignIn>
                 </Form>
-                <DivRapperedLinks >By clicking “Sign In”, you agree to our <Linked> Terms of Service, Refund Policy, </Linked>  and <Linked>Privacy Policy.</Linked>  </DivRapperedLinks>
+                <DivRapperedLinks >By clicking “Sign In”, you agree to our
+                    <Linked> Terms of Service, Refund Policy, </Linked>
+                      and <Linked>Privacy Policy.</Linked>
+                </DivRapperedLinks>
             </Section>
             <Phargraph>
                 Don’t have an account?

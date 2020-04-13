@@ -57,7 +57,7 @@ export const Form = styled.form`
 margin:0 auto
 `;
 export const LabelEmail = styled.label`
-margin:2px;
+margin:1px;
 margin-right:20%;
 font-weight:bold;
 `;

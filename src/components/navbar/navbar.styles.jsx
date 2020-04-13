@@ -1,11 +1,13 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom'
-export const HeaderColor = styled.div`
-width:100%;
+export const HeaderContainer = styled.div`
 background-color:#1371C8;
 align-items: center;
 display: flex;
 height:55px;
+justify-content: space-between;
+
+
 `;
 export const LinkLogo = styled(Link)`
 font-size: 35px;
@@ -17,7 +19,7 @@ export const Logo = styled.img`
 max-height: 23px;
 margin:12px;
 width: 166px;
-margin-left: 260px;
+margin-left: 20px;
 `;
 export const Input = styled.input`
 box-sizing: border-box;
@@ -43,7 +45,6 @@ display: flex-end;
 position: relative;
 align-items:left;
 position: absolute;
-left: 25%;
 justify-content: space-between;   
 margin-left: 8px;
 display: flex;
@@ -94,4 +95,8 @@ transition: all .3s ease;
     color:white;
     background-color:white;
 }
+`;
+export const DivContainer = styled.div`
+flex-grow:2;
+
 `;

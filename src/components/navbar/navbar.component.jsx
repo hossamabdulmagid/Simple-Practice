@@ -12,6 +12,7 @@ import {
 } from './navbar.styles';
 const Navbar = () => {
     return (
+        <>
         <header>
             <HeaderContainer>
                 <LinkLogo> <Logo src="logo.jpg" />  </LinkLogo>
@@ -24,6 +25,7 @@ const Navbar = () => {
                 </RapperdLink>
             </HeaderContainer>
         </header>
+        </>
     );
 };
 export default Navbar;

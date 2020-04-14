@@ -17,19 +17,13 @@ function App() {
     <Navbar />
 
     <div className="container-fluid">
-
       <div className="row">
-
         <div className="col-2">
-
-
           <Sidebar />
-
-
-
         </div>
         <div className="col-8">
           <Switch>
+
             <Route path='/Calendar' component={Calendar} />
             <Route path='/Clients' component={Clients} />
             <Route path='/Billing' component={Billing} />

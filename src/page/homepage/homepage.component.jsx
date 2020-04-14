@@ -64,7 +64,7 @@ const HomePage = () => {
                             label='password'
                             required />
                     </div>
-                    <LinkSignIn onClick={handleSubmit}>Sign In</LinkSignIn>
+                    <LinkSignIn to='/Calendar' onClick={handleSubmit}>Sign In</LinkSignIn>
                 </Form>
                 <DivRapperedLinks >By clicking “Sign In”, you agree to our
                     <Linked> Terms of Service, Refund Policy, </Linked>

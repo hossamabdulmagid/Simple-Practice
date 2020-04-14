@@ -34,7 +34,7 @@ border-radius: 16px;
 transition: background-color .3s ease-in-out, width .3s ease-in-out;
 color:white;
 &:hover{
-    width:430px;
+    width:400px;
     background-color: white;
     color:blue;
     }
@@ -43,23 +43,22 @@ export const RapperdLink = styled.div`
 box-sizing: border-box;
 display: flex-end;
 position: relative;
-align-items:left;
+align-items:center;
 position: absolute;
 justify-content: space-between;   
-margin-left: 8px;
+margin-left: 0px;
 display: flex;
-align-items: center;position: relative;
-width:28%;
+align-items: left;
+position: relative;
+width:25%;
 `;
 export const LinkOption = styled(Link)`
 display: flex;
-align-items: center;
-justify-content: center;
 box-sizing: border-box;
 border: 1px solid transparent;
 border-radius: 4px;
 color: #fff;
-font-size: 14px;
+font-size: 12px;
 font-weight: 600;
 padding: 7px 12px;
 &:hover{

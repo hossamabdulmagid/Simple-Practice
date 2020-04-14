@@ -10,7 +10,6 @@ import {
     LinkStyles,
     DivContainer
 } from './navbar.styles';
-import Sidebar from '../sidebar/sidebar.component'
 const Navbar = () => {
     return (
         <header>

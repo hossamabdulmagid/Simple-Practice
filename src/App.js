@@ -14,30 +14,29 @@ import './App.css';
 function App() {
   return (
     <>
-    <Navbar />
+      <Navbar />
 
-    <div className="container-fluid">
-      <div className="row">
-        <div className="col-2">
-          <Sidebar />
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-xs-2">
+            <Sidebar />
+          </div>
+          <div className="col-8">
+            <Switch>
+              <Route path='/Calendar' component={Calendar} />
+              <Route path='/Clients' component={Clients} />
+              <Route path='/Billing' component={Billing} />
+              <Route path='/Reports' component={Reports} />
+              <Route path='/Account' component={Account} />
+              <Route path='/Reminders' component={Reminders} />
+            </Switch>
+          </div>
         </div>
-        <div className="col-8">
-          <Switch>
 
-            <Route path='/Calendar' component={Calendar} />
-            <Route path='/Clients' component={Clients} />
-            <Route path='/Billing' component={Billing} />
-            <Route path='/Reports' component={Reports} />
-            <Route path='/Account' component={Account} />
-            <Route path='/Reminders' component={Reminders} />
-          </Switch>
-        </div>
+
+
       </div>
-
-
-
-    </div>
-</>
+    </>
   );
 }
 

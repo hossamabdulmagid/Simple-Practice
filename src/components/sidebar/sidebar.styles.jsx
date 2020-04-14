@@ -39,7 +39,7 @@ export const Span = styled.span`
 display: inline;
 margin-left: 2px;
 line-height: 16px;
-padding-right:12px;
+padding-right:18px;
 font-size:13px
 `;
 export const H4style = styled.h4`
@@ -73,6 +73,6 @@ display:block;
 padding-right:15px;
 `;
 export const Buttondiv = styled.div`
-text-align:center;
-margin:0 auto;
+text-align:left;
+padding-left:30px;
 `;

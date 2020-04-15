@@ -1,7 +1,7 @@
 import React from 'react';
 import Alert from 'react-bootstrap/Alert'
 
-import { SPan, Div, Span, Container, Input, SpaN,LinkOption } from './clients.styles'
+import { SPan, Div, Span, Container, Input, SpaN, LinkOption } from './clients.styles'
 const Allert = () => {
     return (
         <Div>
@@ -25,7 +25,7 @@ const Allert = () => {
                     <br />
                     <SpaN>
                         Simplify your client & contact list by merging duplicated profiles.
-                        <LinkOption>Find out more </LinkOption> 
+                        <LinkOption>Find out more </LinkOption>
                     </SpaN>
                 </Alert.Heading>
 

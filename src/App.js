@@ -1,5 +1,5 @@
 import React from 'react';
-import HomePage from './page/homepage/homepage.component'
+// import HomePage from './page/homepage/homepage.component'
 import Navbar from './components/navbar/navbar.component'
 import Sidebar from './components/sidebar/sidebar.component'
 import Calendar from './components/calendar/calendar.component'
@@ -18,7 +18,7 @@ function App() {
 
       <div className="container-fluid">
         <div className="row">
-          <div className="col-xs-2">
+          <div className="col-2">
             <Sidebar />
           </div>
           <div className="col-8">

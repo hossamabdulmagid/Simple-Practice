@@ -19,12 +19,12 @@ margin-top :25px;
 `;
 export const SidebarLink = styled(Link)`
 display: flex;
-align-items: center;
+align-items:center;
 color: #444;
 line-height: 20px;
 font-size: 14px;
 font-weight: 400;
-padding: 6px 0 6px 12px;
+padding: 6px 0px 7px 12px;
 text-decoration: none;
 border-radius: 3px;
 margin-top:10px;
@@ -39,7 +39,7 @@ export const Span = styled.span`
 display: inline;
 margin-left: 2px;
 line-height: 16px;
-padding-right:18px;
+padding-right:15px;
 font-size:13px
 `;
 export const H4style = styled.h4`

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { H2, Container, Ul, Li, LinkOption, RapparForm, InPut, FForm, FFForm, LinkOptionz, Col } from './account.styles'
+import { H2, Container, Ul, Li, LinkOption,LinkOptions, RapparForm, InPut, FForm, FFForm, LinkOptionz, Col,Span } from './account.styles'
 import { Form } from 'react-bootstrap'
 
 const Account = () => {
@@ -60,7 +60,9 @@ const Account = () => {
                         <div className="col-3">DATE</div>
                         <div className="col-3">TIME</div>
                         <div className="col-3">VIEW</div>
-                        <div className="col-3"></div>
+                        <div className="col-3"> 
+                        <LinkOptions> Show Details</LinkOptions>
+                        </div>
                     </div>
                 </Col>
                 <Col className="container-fluid">
@@ -69,7 +71,7 @@ const Account = () => {
                             <LinkOptionz>Maria Augustina Recla</LinkOptionz>
                         </div>
                         <div className="col-3">(631) 678-1332 Mobile <i class="fa fa-phone" aria-hidden="true"></i> <br />
-                    jessica.ashley.davis@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i>
+                    jessica.ashley.davis@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i> <br/> <br/>
                         </div>
                         <div className="col-3">
                             Family Membe <LinkOptionz> Tracie Davis </LinkOptionz> <br />
@@ -86,7 +88,7 @@ const Account = () => {
                             <LinkOptionz>Jess Adams </LinkOptionz>
                         </div>
                         <div className="col-3">(631) 678-1332 Mobile <i class="fa fa-phone" aria-hidden="true"></i> <br />
-                    jessica.ashley.davis@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i>
+                    jessica.ashley.davis@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i><br /> <br />
 
                         </div>
                         <div className="col-3">
@@ -103,7 +105,7 @@ const Account = () => {
                             <LinkOptionz>Susan Allen</LinkOptionz>
                         </div>
                         <div className="col-3">(631) 678-1332 Mobile <i class="fa fa-phone" aria-hidden="true"></i> <br />
-                    jessica.ashley.davis@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i>
+                    jessica.ashley.davis@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i><br /> <br />
 
                         </div>
                         <div className="col-3">
@@ -121,7 +123,7 @@ const Account = () => {
                             <LinkOptionz>Sean Allen</LinkOptionz>
                         </div>
                         <div className="col-3">(631) 678-1332 Mobile <i class="fa fa-phone" aria-hidden="true"></i> <br />
-                    jessica.ashley.davis@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i>
+                    jessica.ashley.davis@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i><br /> <br />
 
                         </div>
                         <div className="col-3">
@@ -139,7 +141,7 @@ const Account = () => {
                             <LinkOptionz>Shannon Allen</LinkOptionz>
                         </div>
                         <div className="col-3">(631) 678-1332 Mobile <i class="fa fa-phone" aria-hidden="true"></i> <br />
-                    jessica.ashley.davis@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i>
+                    jessica.ashley.davis@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i><br /> <br />
 
                         </div>
                         <div className="col-3">
@@ -157,7 +159,7 @@ const Account = () => {
                             <LinkOptionz>Carrie Anderson</LinkOptionz>
                         </div>
                         <div className="col-3">(631) 678-1332 Mobile <i class="fa fa-phone" aria-hidden="true"></i> <br />
-                    jessica.ashley.davis@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i>
+                    jessica.ashley.davis@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i><br /> <br />
 
                         </div>
                         <div className="col-3">
@@ -175,7 +177,7 @@ const Account = () => {
                             <LinkOptionz>CJennifr Biggs</LinkOptionz>
                         </div>
                         <div className="col-3">(631) 678-1332 Mobile <i class="fa fa-phone" aria-hidden="true"></i> <br />
-                    jessica.ashley.davis@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i>
+                    jessica.ashley.davis@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i><br /> <br />
 
                         </div>
                         <div className="col-3">
@@ -193,7 +195,7 @@ const Account = () => {
                             <LinkOptionz>jennifer Bokowski</LinkOptionz>
                         </div>
                         <div className="col-3">(631) 678-1332 Mobile <i class="fa fa-phone" aria-hidden="true"></i> <br />
-                    jessica.ashley.davis@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i>
+                    jessica.ashley.davis@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i><br /> <br />
 
                         </div>
                         <div className="col-3">

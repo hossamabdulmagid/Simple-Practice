@@ -75,3 +75,7 @@ padding-top:20px;
 export const LinkOptionz = styled(Link)`
 padding:5px;
 `;
+export const LinkOptions = styled(Link)`
+margin-left:65%;
+
+`;

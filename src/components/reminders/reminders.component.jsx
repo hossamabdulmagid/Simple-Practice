@@ -33,26 +33,16 @@ const Reminders = () => {
 
                     <div className="col-8">
                         <Span>170 clients or contacts in your account may be duplicates.your account will continue operating as it has been.
-                        <LinkOption> Review now </LinkOption> </Span>            <Col />
-
-                        <Span> You have 283 clients with a balance due</Span>            <Col />
-
-                        <Span>You have 4 emails that could not be delivered.</Span>            <Col />
-
-                        <Span>You have not done a Mental status exam for these 103 clients.</Span>            <Col />
-
-                        <Span> You have not done a Diagnosis and Treatment plan for these 99 clients.</Span>            <Col />
-
-                        <Span>You have 42 clients that did not complete document requests</Span>            <Col />
-
-                        <Span>You have 45 insurance payments with unallocated amounts</Span>            <Col />
-
-                        <Span>You have 4 appointments with missing notes</Span>            <Col />
-
-                        <Span>Client <LinkOption> Makenna E. Murphy </LinkOption> has an expired credit card </Span>            <Col />
-
-                        <Span>Client <LinkOption> Pickle Ploense </LinkOption>  has an expired credit card</Span>            <Col />
-
+                        <LinkOption> Review now </LinkOption> </Span>   <Col />
+                        <Span> You have 283 clients with a balance due</Span> <Col />
+                        <Span>You have 4 emails that could not be delivered.</Span> <Col />
+                        <Span>You have not done a Mental status exam for these 103 clients.</Span><Col />
+                        <Span> You have not done a Diagnosis and Treatment plan for these 99 clients.</Span><Col />
+                        <Span>You have 42 clients that did not complete document requests</Span><Col />
+                        <Span>You have 45 insurance payments with unallocated amounts</Span><Col />
+                        <Span>You have 4 appointments with missing notes</Span><Col />
+                        <Span>Client <LinkOption> Makenna E. Murphy </LinkOption> has an expired credit card </Span><Col />
+                        <Span>Client <LinkOption> Pickle Ploense </LinkOption>  has an expired credit card</Span><Col />
                         <Span>You have 13 denied claims</Span>            
 
                     </div>

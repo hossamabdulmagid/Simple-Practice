@@ -5,6 +5,7 @@ import { Form } from 'react-bootstrap'
 
 const Account = () => {
     return (
+        <>
         <div className="">
             <H2> Account Activity</H2>
             <Container>
@@ -53,7 +54,7 @@ const Account = () => {
                     </FFForm>
                 </RapparForm>
             </Container>
-            <>
+            
                 <Col className="container-fluid">
                     <div className="row">
                         <div className="col-3">DATE</div>
@@ -204,8 +205,9 @@ const Account = () => {
                         </div>
                     </div>
                 </Col>
-            </>
         </div>
+        </>
+
     );
 }
 

@@ -23,7 +23,7 @@ function App() {
           </div>
           <div className="col-8">
             <Switch>
-              <Route path='/Calendar' component={Calendar} />
+              <Route exact path='/Calendar' component={Calendar} />
               <Route path='/Clients' component={Clients} />
               <Route path='/Billing' component={Billing} />
               <Route path='/Reports' component={Reports} />

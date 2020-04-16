@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { H2, Container, Ul, Li, LinkOption,LinkOptions, RapparForm, InPut, FForm, FFForm, LinkOptionz, Col,Span } from './account.styles'
+import { H2, Container, Ul, Li, LinkOption,LinkOptions, RapparForm, InPut, FForm, FFForm, LinkOptionz, Col } from './account.styles'
 import { Form } from 'react-bootstrap'
 
 const Account = () => {

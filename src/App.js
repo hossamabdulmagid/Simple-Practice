@@ -8,6 +8,7 @@ import Billing from './components/billing/billing.component'
 import Reports from './components/reports/reports.component'
 import Account from './components/account/account.component'
 import Reminders from './components/reminders/reminders.component'
+import Footer from './components/footer/footer.component'
 import { Switch, Route } from 'react-router-dom';
 import './App.css';
 
@@ -30,6 +31,7 @@ function App() {
               <Route path='/Account' component={Account} />
               <Route path='/Reminders' component={Reminders} />
             </Switch>
+            <Footer />
           </div>
         </div>
 

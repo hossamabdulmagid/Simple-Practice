@@ -2,14 +2,15 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom'
 export const SidebarContainer = styled.div`
 text-align:left;
-border-right:1px solid darkgrey;
+border-right:1px solid #d7d7d7;
+height:1200px;
 `;
 export const LinkOption = styled(Link)`
 align-items: center;
 padding: 6px 12px;
 color: #747474;
 font-size: 12px;
-border: 1px solid darkgrey;
+border: 1px solid #d7d7d7;
 border-radius: 4px;
 margin-top :25px;
 &:hover{

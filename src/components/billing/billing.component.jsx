@@ -1,8 +1,8 @@
 import React from 'react';
-import { LinkOptions, Button, LinkStyle, Spaned, COL, LinkOption, RapparedButton ,Span} from './billing.styles';
+import { LinkOptions, Button, LinkStyle, Spaned, COL, LinkOption, RapparedButton, Span, S } from './billing.styles';
 const Billing = () => {
     return (
-        <div>
+        <div className="container-fluid">
             <h7>  Recent Transactions</h7>
             <Button>03/16/2020 - 04/15/2020 </Button>
             <COL className="container-fluid">
@@ -54,51 +54,43 @@ const Billing = () => {
                         <br />
                     </div>
                     <div className="col-5">
-                        <Spaned> Session with <LinkOption>  Scout G. Durwood </LinkOption></Spaned>
+                        <Spaned> <S>Adjustment for</S> Invoice for  <LinkOption>Paul Lapre INV #4603</LinkOption></Spaned>
                         <br />
-                        <Spaned>90834 Follow Up</Spaned>
+                        <Spaned><LinkOption> 90834 Follow Up </LinkOption></Spaned>
+                        <br />   <Spaned><S>Adjustment for</S> Invoice for  <LinkOption>Paul Lapre INV #4603</LinkOption></Spaned>
                         <br />
-                        <Spaned> Session with <LinkOption>  Scout G. Durwood </LinkOption></Spaned>
+                        <Spaned><LinkOption> 90834 Follow Up </LinkOption></Spaned>
                         <br />
-                        <Spaned>90834 Follow Up</Spaned>
+                        <Spaned><S>Adjustment for</S> Invoice for  <LinkOption>Paul Lapre INV #4603</LinkOption></Spaned>
                         <br />
-                        <Spaned> Session with <LinkOption>  Scout G. Durwood </LinkOption></Spaned>
+                        <Spaned><LinkOption> 90834 Follow Up </LinkOption></Spaned>
                         <br />
-                        <Spaned>90834 Follow Up</Spaned>
+                        <Spaned><S>Adjustment for</S> Invoice for  <LinkOption>Paul Lapre INV #4603</LinkOption></Spaned>
                         <br />
-                        <Spaned> Session with <LinkOption>  Scout G. Durwood </LinkOption></Spaned>
+                        <Spaned><LinkOption> 90834 Follow Up </LinkOption></Spaned>
+                        <br />   <Spaned><S>Adjustment for</S> Invoice for  <LinkOption>Paul Lapre INV #4603</LinkOption></Spaned>
                         <br />
-                        <Spaned>90834 Follow Up</Spaned>
+                        <Spaned><LinkOption> 90834 Follow Up </LinkOption></Spaned>
+                        <br />   <Spaned><S>Adjustment for</S> Invoice for  <LinkOption>Paul Lapre INV #4603</LinkOption></Spaned>
                         <br />
-                        <Spaned> Session with <LinkOption>  Scout G. Durwood </LinkOption></Spaned>
+                        <Spaned><LinkOption> 90834 Follow Up </LinkOption></Spaned>
+                        <br />   <Spaned> <S>Adjustment for</S>Invoice for  <LinkOption>Paul Lapre INV #4603</LinkOption></Spaned>
                         <br />
-                        <Spaned>90834 Follow Up</Spaned>
+                        <Spaned><LinkOption> 90834 Follow Up </LinkOption></Spaned>
+                        <br />   <Spaned><S>Adjustment for</S> Invoice for  <LinkOption>Paul Lapre INV #4603</LinkOption></Spaned>
                         <br />
-                        <Spaned> Session with <LinkOption>  Scout G. Durwood </LinkOption></Spaned>
+                        <Spaned><LinkOption> 90834 Follow Up </LinkOption></Spaned>
+                        <br />   <Spaned> <S>Adjustment for</S>Invoice for  <LinkOption>Paul Lapre INV #4603</LinkOption></Spaned>
                         <br />
-                        <Spaned>90834 Follow Up</Spaned>
+                        <Spaned><LinkOption> 90834 Follow Up </LinkOption></Spaned>
+                        <br />   <Spaned><S>Adjustment for</S> Invoice for  <LinkOption>Paul Lapre INV #4603</LinkOption></Spaned>
                         <br />
-                        <Spaned> Session with <LinkOption>  Scout G. Durwood </LinkOption></Spaned>
+                        <Spaned><LinkOption> 90834 Follow Up </LinkOption></Spaned>
                         <br />
-                        <Spaned>90834 Follow Up</Spaned>
+                        <Spaned> <S>Adjustment for</S>Invoice for  <LinkOption>Paul Lapre INV #4603</LinkOption></Spaned>
                         <br />
-                        <Spaned> Session with <LinkOption>  Scout G. Durwood </LinkOption></Spaned>
+                        <Spaned><LinkOption> 90834 Follow Up </LinkOption></Spaned>
                         <br />
-                        <Spaned>90834 Follow Up</Spaned>
-                        <br />
-                        <Spaned> Session with <LinkOption>  Scout G. Durwood </LinkOption></Spaned>
-                        <br />
-                        <Spaned>90834 Follow Up</Spaned>
-                        <br />
-                        <Spaned> Session with <LinkOption>  Scout G. Durwood </LinkOption></Spaned>
-                        <br />
-                        <Spaned>90834 Follow Up</Spaned>
-                        <br />
-                        <Spaned> Session with <LinkOption>  Scout G. Durwood </LinkOption></Spaned>
-                        <br />
-                        <Spaned>90834 Follow Up</Spaned>
-
-
                     </div>
                     <div className="col-4">
                         <Span>+$15</Span>
@@ -113,17 +105,13 @@ const Billing = () => {
                         <Span>+$115</Span>
                         <Span>+$315</Span>
                         <Span>+$125</Span>
-
                     </div>
                     <div className="col-2">
                         <LinkStyle>Billing Documents </LinkStyle>
                         <LinkStyle> Export Transactions</LinkStyle>
                         <LinkStyle>Card Transactions </LinkStyle>
                         <LinkStyle>Insurance </LinkStyle>
-
-
                     </div>
-
                 </div>
             </COL>
             <RapparedButton>
@@ -134,11 +122,8 @@ const Billing = () => {
                 <LinkOptions> ...</LinkOptions>
                 <LinkOptions> Next <i class="fa fa-angle-right" aria-hidden="true"></i></LinkOptions>
                 <LinkOptions> Last <i class="fa fa-angle-double-right" aria-hidden="true"></i></LinkOptions>
-
             </RapparedButton>
         </div>
-
     );
 }
-
 export default Billing;

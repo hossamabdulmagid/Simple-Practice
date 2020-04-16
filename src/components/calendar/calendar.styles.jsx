@@ -60,3 +60,7 @@ text-shadow: none;
     border-color: rgba(0,0,0,.25) rgba(0,0,0,.25) rgba(0,0,0,.35);
 }
 `;
+export const IMG = styled.img`
+width:125%;
+margin-top:35px;
+`;

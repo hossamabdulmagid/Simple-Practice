@@ -48,17 +48,23 @@ export const LinkOption = styled(Link)`
 `;
 export const RapparedButton = styled.div`
 margin-top:45px;
+display:flex;
 `;
 
 export const LinkOptions = styled(Link)`
 float: left;
-    padding: 0 14px;
-    line-height: 34px;
-    text-decoration: none;
-    border: 1px solid #ddd;
-    border-left-width: 0;
-    background-color: #f5f5f5;
-    color: #005580;
+padding: 0 14px;
+line-height: 34px;
+text-decoration: none;
+border: 1px solid #ddd;
+border-left-width: 0;
+background-color: #f5f5f5;
+color: #005580;
+margin_bottom:10px;
 
+
+`;
+export const S = styled.span`
+color:darkred;
 
 `;

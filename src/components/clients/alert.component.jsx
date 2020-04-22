@@ -6,7 +6,6 @@ const Allert = () => {
     return (
         <Div>
             <Alert variant="success">
-
                 <Container className='custom-control custom-switch'>
                     <Input
                         type='checkbox'
@@ -19,8 +18,9 @@ const Allert = () => {
                     </label>
                 </Container>
                 <Alert.Heading>
-                    <SPan className="container"> <i class="fa fa-check-circle" aria-hidden="true"></i>  </SPan>
-
+                    <SPan className="container">
+                        <i class="fa fa-check-circle" aria-hidden="true"></i>
+                    </SPan>
                     <Span>Show 170 potential duplicates </Span>
                     <br />
                     <SpaN>
@@ -28,7 +28,6 @@ const Allert = () => {
                         <LinkOption>Find out more </LinkOption>
                     </SpaN>
                 </Alert.Heading>
-
             </Alert>
         </Div>
     );

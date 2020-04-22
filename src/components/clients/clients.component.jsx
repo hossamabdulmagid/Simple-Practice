@@ -14,10 +14,12 @@ const Clients = () => {
                     <Form.Group sz="xs" controlId="exampleForm.SelectCustom">
                         <Form.Control as="select" >
                             <option>All Clinicians</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
+                            <option>Dr.Ehab Yacoub</option>
+                            <option>Pedro Morante</option>
+                            <option>Richard Heidenfelder</option>
+                            <option>Maxine Okafor</option>
+                            <option>andrea szzemsy</option>
+                            <option>MONICA KEO</option>
                         </Form.Control>
                     </Form.Group>
                 </FForm>

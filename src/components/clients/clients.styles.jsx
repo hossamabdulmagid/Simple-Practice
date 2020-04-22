@@ -76,7 +76,7 @@ margin-top:2%;
 
 export const Container = styled.div`
 margin-left: 23%;
-
+background-color:#C9E8DE;
 display:inline;
 
 `;
@@ -125,3 +125,4 @@ export const Col = styled.div`
 border-bottom: 1px solid gray;
 padding-top:20px;
 `;
+

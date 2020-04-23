@@ -1,6 +1,4 @@
 import dataTypeAction from './dataType'
-
-
 const INITIAL_STATE = {
     isFetch: false,
     users: [],

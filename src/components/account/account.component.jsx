@@ -201,19 +201,11 @@ const Account = ({ fetchUsers }) => {
                 </Col>
             </div>
         </>
-
     );
 }
-
-
-
-
-
-
 const mapDispatchToProps = dispatch => ({
     fetchUsers: () => dispatch(fetchUsers())
 });
-
 export default connect(
     null,
     mapDispatchToProps

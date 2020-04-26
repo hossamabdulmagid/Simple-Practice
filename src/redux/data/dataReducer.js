@@ -2,7 +2,7 @@ import dataTypeAction from './dataType'
 const INITIAL_STATE = {
     isFetch: false,
     users: [],
-    error: null
+    errormessage: undefined
 }
 
 
@@ -17,13 +17,13 @@ const dataReducers = (state = INITIAL_STATE, action) => {
             return {
                 ...state,
                 isFetch: false,
-                users: action.payload
+                users: [...state.users, action.payload]
             }
         case dataTypeAction.FETCH_DATA_ERROR:
             return {
                 ...state,
                 isFetch: false,
-                error: action.error
+                errormessage: action.payload
             }
         default:
             return state;

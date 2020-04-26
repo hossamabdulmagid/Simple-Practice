@@ -1,16 +1,12 @@
 import React, { useEffect } from 'react';
 import { H2, Container, Ul, Li, LinkOption, LinkOptions, RapparForm, InPut, FForm, FFForm, LinkOptionz, Col } from './account.styles'
 import { Form } from 'react-bootstrap'
-import fetchUsers from '../../redux/data/FetchData';
+import fetchUsers from '../../redux/data/dataAction';
 import { connect } from 'react-redux';
-const Account = () => {
+const Account = ({ fetchUsers }) => {
     useEffect(() => {
         fetchUsers()
-    })
-    useEffect(()=>{
-        console.log('sss')
-    })
-
+    }, [fetchUsers]);
     return (
         <>
             <div className="">
@@ -18,13 +14,13 @@ const Account = () => {
                 <Container>
                     <Ul>
                         <Li>
-                            <LinkOption>History </LinkOption>
+                            <LinkOption to="">History </LinkOption>
                         </Li>
                         <Li>
-                            <LinkOption>Sign In Events</LinkOption>
+                            <LinkOption to="">Sign In Events</LinkOption>
                         </Li>
                         <Li>
-                            <LinkOption>HIPAA Audit Log</LinkOption>
+                            <LinkOption to="">HIPAA Audit Log</LinkOption>
                         </Li>
                     </Ul>
                     <RapparForm>
@@ -70,21 +66,21 @@ const Account = () => {
                         <div className="col-3">TIME</div>
                         <div className="col-3">VIEW</div>
                         <div className="col-3">
-                            <LinkOptions> Show Details</LinkOptions>
+                            <LinkOptions to=""> Show Details</LinkOptions>
                         </div>
                     </div>
                 </Col>
                 <Col className="container-fluid">
                     <div className="row">
                         <div className="col-3">
-                            <LinkOptionz>Maria Augustina Recla</LinkOptionz>
+                            <LinkOptionz to="">Maria Augustina Recla</LinkOptionz>
                         </div>
-                        <div className="col-3">(631) 678-1332 Mobile <i class="fa fa-phone" aria-hidden="true"></i> <br />
-                    jessica.ashley.davis@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i> <br /> <br />
+                        <div className="col-3">(631) 678-1332 Mobile <i className="fa fa-phone" aria-hidden="true"></i> <br />
+                    jessica.ashley.davis@gmail.com <i className="fa fa-envelope" aria-hidden="true"></i> <br /> <br />
                         </div>
                         <div className="col-3">
-                            Family Membe <LinkOptionz> Tracie Davis </LinkOptionz> <br />
-                    Emergency contact<LinkOptionz> Tracie Davis </LinkOptionz>
+                            Family Membe <LinkOptionz to=""> Tracie Davis </LinkOptionz> <br />
+                    Emergency contact<LinkOptionz to=""> Tracie Davis </LinkOptionz>
                         </div>
                         <div className="col-3">
                         </div>
@@ -93,10 +89,10 @@ const Account = () => {
                 <Col className="container-fluid">
                     <div className="row">
                         <div className="col-3">
-                            <LinkOptionz>Jess Adams </LinkOptionz>
+                            <LinkOptionz to="">Jess Adams </LinkOptionz>
                         </div>
-                        <div className="col-3">(631) 678-1332 Mobile <i class="fa fa-phone" aria-hidden="true"></i> <br />
-                    jessica.ashley.davis@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i><br /> <br />
+                        <div className="col-3">(631) 678-1332 Mobile <i className="fa fa-phone" aria-hidden="true"></i> <br />
+                    jessica.ashley.davis@gmail.com <i className="fa fa-envelope" aria-hidden="true"></i><br /> <br />
                         </div>
                         <div className="col-3">
                             Clinician: Tehila Abrekov
@@ -109,30 +105,14 @@ const Account = () => {
                 <Col className="container-fluid">
                     <div className="row">
                         <div className="col-3">
-                            <LinkOptionz>Susan Allen</LinkOptionz>
+                            <LinkOptionz to="">Susan Allen</LinkOptionz>
                         </div>
-                        <div className="col-3">(631) 678-1332 Mobile <i class="fa fa-phone" aria-hidden="true"></i> <br />
-                    jessica.ashley.davis@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i><br /> <br />
-                        </div>
-                        <div className="col-3">
-                            Other for <LinkOptionz> Keeli Shaw </LinkOptionz> <br />
-                    Emergency contact for <LinkOptionz>  Keeli Shaw</LinkOptionz>
+                        <div className="col-3">(631) 678-1332 Mobile <i className="fa fa-phone" aria-hidden="true"></i> <br />
+                    jessica.ashley.davis@gmail.com <i className="fa fa-envelope" aria-hidden="true"></i><br /> <br />
                         </div>
                         <div className="col-3">
-                        </div>
-                    </div>
-                </Col>
-                <Col className="container-fluid">
-                    <div className="row">
-                        <div className="col-3">
-                            <LinkOptionz>Sean Allen</LinkOptionz>
-                        </div>
-                        <div className="col-3">(631) 678-1332 Mobile <i class="fa fa-phone" aria-hidden="true"></i> <br />
-                    jessica.ashley.davis@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i><br /> <br />
-                        </div>
-                        <div className="col-3">
-                            Family Membe <LinkOptionz> Tracie Davis </LinkOptionz> <br />
-                    Emergency contact<LinkOptionz> Tracie Davis </LinkOptionz>
+                            Other for <LinkOptionz to=""> Keeli Shaw </LinkOptionz> <br />
+                    Emergency contact for <LinkOptionz to="">  Keeli Shaw</LinkOptionz>
                         </div>
                         <div className="col-3">
                         </div>
@@ -141,14 +121,14 @@ const Account = () => {
                 <Col className="container-fluid">
                     <div className="row">
                         <div className="col-3">
-                            <LinkOptionz>Shannon Allen</LinkOptionz>
+                            <LinkOptionz to="">Sean Allen</LinkOptionz>
                         </div>
-                        <div className="col-3">(631) 678-1332 Mobile <i class="fa fa-phone" aria-hidden="true"></i> <br />
-                    jessica.ashley.davis@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i><br /> <br />
+                        <div className="col-3">(631) 678-1332 Mobile <i className="fa fa-phone" aria-hidden="true"></i> <br />
+                    jessica.ashley.davis@gmail.com <i className="fa fa-envelope" aria-hidden="true"></i><br /> <br />
                         </div>
                         <div className="col-3">
-                            Family Membe <LinkOptionz> Tracie Davis </LinkOptionz> <br />
-                    Emergency contact<LinkOptionz> Tracie Davis </LinkOptionz>
+                            Family Membe <LinkOptionz to=""> Tracie Davis </LinkOptionz> <br />
+                    Emergency contact<LinkOptionz to=""> Tracie Davis </LinkOptionz>
                         </div>
                         <div className="col-3">
                         </div>
@@ -157,15 +137,31 @@ const Account = () => {
                 <Col className="container-fluid">
                     <div className="row">
                         <div className="col-3">
-                            <LinkOptionz>Carrie Anderson</LinkOptionz>
+                            <LinkOptionz to="">Shannon Allen</LinkOptionz>
                         </div>
-                        <div className="col-3">(631) 678-1332 Mobile <i class="fa fa-phone" aria-hidden="true"></i> <br />
-                    jessica.ashley.davis@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i><br /> <br />
+                        <div className="col-3">(631) 678-1332 Mobile <i className="fa fa-phone" aria-hidden="true"></i> <br />
+                    jessica.ashley.davis@gmail.com <i className="fa fa-envelope" aria-hidden="true"></i><br /> <br />
+                        </div>
+                        <div className="col-3">
+                            Family Membe <LinkOptionz to=""> Tracie Davis </LinkOptionz> <br />
+                    Emergency contact<LinkOptionz to=""> Tracie Davis </LinkOptionz>
+                        </div>
+                        <div className="col-3">
+                        </div>
+                    </div>
+                </Col>
+                <Col className="container-fluid">
+                    <div className="row">
+                        <div className="col-3">
+                            <LinkOptionz to="">Carrie Anderson</LinkOptionz>
+                        </div>
+                        <div className="col-3">(631) 678-1332 Mobile <i className="fa fa-phone" aria-hidden="true"></i> <br />
+                    jessica.ashley.davis@gmail.com <i className="fa fa-envelope" aria-hidden="true"></i><br /> <br />
 
                         </div>
                         <div className="col-3">
-                            Family Membe <LinkOptionz> Tracie Davis </LinkOptionz> <br />
-                    Emergency contact<LinkOptionz> Tracie Davis </LinkOptionz>
+                            Family Membe <LinkOptionz to=""> Tracie Davis </LinkOptionz> <br />
+                    Emergency contact<LinkOptionz to=""> Tracie Davis </LinkOptionz>
                         </div>
                         <div className="col-3">
                         </div>
@@ -174,14 +170,14 @@ const Account = () => {
                 <Col className="container-fluid">
                     <div className="row">
                         <div className="col-3">
-                            <LinkOptionz>CJennifr Biggs</LinkOptionz>
+                            <LinkOptionz to="">CJennifr Biggs</LinkOptionz>
                         </div>
-                        <div className="col-3">(631) 678-1332 Mobile <i class="fa fa-phone" aria-hidden="true"></i> <br />
-                    jessica.ashley.davis@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i><br /> <br />
+                        <div className="col-3">(631) 678-1332 Mobile <i className="fa fa-phone" aria-hidden="true"></i> <br />
+                    jessica.ashley.davis@gmail.com <i className="fa fa-envelope" aria-hidden="true"></i><br /> <br />
                         </div>
                         <div className="col-3">
-                            Family Membe <LinkOptionz> Tracie Davis </LinkOptionz> <br />
-                    Emergency contact<LinkOptionz> Tracie Davis </LinkOptionz>
+                            Family Membe <LinkOptionz to=""> Tracie Davis </LinkOptionz> <br />
+                    Emergency contact<LinkOptionz to=""> Tracie Davis </LinkOptionz>
                         </div>
                         <div className="col-3">
                         </div>
@@ -190,14 +186,14 @@ const Account = () => {
                 <Col className="container-fluid">
                     <div className="row">
                         <div className="col-3">
-                            <LinkOptionz>jennifer Bokowski</LinkOptionz>
+                            <LinkOptionz to="">jennifer Bokowski</LinkOptionz>
                         </div>
-                        <div className="col-3">(631) 678-1332 Mobile <i class="fa fa-phone" aria-hidden="true"></i> <br />
-                    jessica.ashley.davis@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i><br /> <br />
+                        <div className="col-3">(631) 678-1332 Mobile <i className="fa fa-phone" aria-hidden="true"></i> <br />
+                    jessica.ashley.davis@gmail.com <i className="fa fa-envelope" aria-hidden="true"></i><br /> <br />
                         </div>
                         <div className="col-3">
-                            Family Membe <LinkOptionz> Tracie Davis </LinkOptionz> <br />
-                    Emergency contact<LinkOptionz> Tracie Davis </LinkOptionz>
+                            Family Membe <LinkOptionz to=""> Tracie Davis </LinkOptionz> <br />
+                    Emergency contact<LinkOptionz to=""> Tracie Davis </LinkOptionz>
                         </div>
                         <div className="col-3">
                         </div>
@@ -208,6 +204,8 @@ const Account = () => {
 
     );
 }
+
+
 
 
 

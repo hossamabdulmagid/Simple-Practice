@@ -15,13 +15,13 @@ const Navbar = () => {
         <>
         <header>
             <HeaderContainer>
-                <LinkLogo> <Logo src="logo.jpg" />  </LinkLogo>
-                <DivContainer><Input type="search" class="form-control" placeholder="Search Clients" /> </DivContainer>
+                <LinkLogo to="/"> <Logo src="logo.jpg" />  </LinkLogo>
+                <DivContainer><Input type="search" className="form-control" placeholder="Search Clients" /> </DivContainer>
                 <RapperdLink>
-                    <LinkOption><Span><i class='fas'>&#xf067;</i>Create</Span></LinkOption>
-                    <LinkOption><Span><i class='far'>&#xf27a;</i> Message </Span></LinkOption>
-                    <LinkStyles><Span>Eran Free Creadit!</Span></LinkStyles>
-                    <LinkOption><Span><i class="fa">&#xf013;</i> My Account</Span></LinkOption>
+                    <LinkOption to="/"><Span><i className='fas'>&#xf067;</i>Create</Span></LinkOption>
+                    <LinkOption  to="/"><Span><i className='far'>&#xf27a;</i> Message </Span></LinkOption>
+                    <LinkStyles to="/"><Span>Eran Free Creadit!</Span></LinkStyles>
+                    <LinkOption to="/"><Span><i className="fa">&#xf013;</i> My Account</Span></LinkOption>
                 </RapperdLink>
             </HeaderContainer>
         </header>

@@ -17,8 +17,8 @@ const Info = () => {
                     <div className="col-3">
                         <OptionLink>Maria Augustina Recla</OptionLink>
                     </div>
-                    <div className="col-3">(631) 678-1332 Mobile <i class="fa fa-phone" aria-hidden="true"></i> <br />
-                    jessica.ashley.davis@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <div className="col-3">(631) 678-1332 Mobile <i className="fa fa-phone" aria-hidden="true"></i> <br />
+                    jessica.ashley.davis@gmail.com <i className="fa fa-envelope" aria-hidden="true"></i>
                     </div>
                     <div className="col-3">
                         Family Membe <OptionLink> Tracie Davis </OptionLink> <br />
@@ -46,8 +46,8 @@ const Info = () => {
                     <div className="col-3">
                         <OptionLink>Jess Adams </OptionLink>
                     </div>
-                    <div className="col-3">(631) 678-1332 Mobile <i class="fa fa-phone" aria-hidden="true"></i> <br />
-                    jessica.ashley.davis@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <div className="col-3">(631) 678-1332 Mobile <i className="fa fa-phone" aria-hidden="true"></i> <br />
+                    jessica.ashley.davis@gmail.com <i className="fa fa-envelope" aria-hidden="true"></i>
 
                     </div>
                     <div className="col-3">
@@ -74,8 +74,8 @@ const Info = () => {
                     <div className="col-3">
                         <OptionLink>Susan Allen</OptionLink>
                     </div>
-                    <div className="col-3">(631) 678-1332 Mobile <i class="fa fa-phone" aria-hidden="true"></i> <br />
-                    jessica.ashley.davis@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <div className="col-3">(631) 678-1332 Mobile <i className="fa fa-phone" aria-hidden="true"></i> <br />
+                    jessica.ashley.davis@gmail.com <i className="fa fa-envelope" aria-hidden="true"></i>
 
                     </div>
                     <div className="col-3">
@@ -103,8 +103,8 @@ const Info = () => {
                     <div className="col-3">
                         <OptionLink>Sean Allen</OptionLink>
                     </div>
-                    <div className="col-3">(631) 678-1332 Mobile <i class="fa fa-phone" aria-hidden="true"></i> <br />
-                    jessica.ashley.davis@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <div className="col-3">(631) 678-1332 Mobile <i className="fa fa-phone" aria-hidden="true"></i> <br />
+                    jessica.ashley.davis@gmail.com <i className="fa fa-envelope" aria-hidden="true"></i>
 
                     </div>
                     <div className="col-3">
@@ -132,8 +132,8 @@ const Info = () => {
                     <div className="col-3">
                         <OptionLink>Shannon Allen</OptionLink>
                     </div>
-                    <div className="col-3">(631) 678-1332 Mobile <i class="fa fa-phone" aria-hidden="true"></i> <br />
-                    jessica.ashley.davis@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <div className="col-3">(631) 678-1332 Mobile <i className="fa fa-phone" aria-hidden="true"></i> <br />
+                    jessica.ashley.davis@gmail.com <i className="fa fa-envelope" aria-hidden="true"></i>
 
                     </div>
                     <div className="col-3">
@@ -161,8 +161,8 @@ const Info = () => {
                     <div className="col-3">
                         <OptionLink>Carrie Anderson</OptionLink>
                     </div>
-                    <div className="col-3">(631) 678-1332 Mobile <i class="fa fa-phone" aria-hidden="true"></i> <br />
-                    jessica.ashley.davis@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <div className="col-3">(631) 678-1332 Mobile <i className="fa fa-phone" aria-hidden="true"></i> <br />
+                    jessica.ashley.davis@gmail.com <i className="fa fa-envelope" aria-hidden="true"></i>
 
                     </div>
                     <div className="col-3">
@@ -190,8 +190,8 @@ const Info = () => {
                     <div className="col-3">
                         <OptionLink>CJennifr Biggs</OptionLink>
                     </div>
-                    <div className="col-3">(631) 678-1332 Mobile <i class="fa fa-phone" aria-hidden="true"></i> <br />
-                    jessica.ashley.davis@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <div className="col-3">(631) 678-1332 Mobile <i className="fa fa-phone" aria-hidden="true"></i> <br />
+                    jessica.ashley.davis@gmail.com <i className="fa fa-envelope" aria-hidden="true"></i>
 
                     </div>
                     <div className="col-3">
@@ -219,8 +219,8 @@ const Info = () => {
                     <div className="col-3">
                         <OptionLink>jennifer Bokowski</OptionLink>
                     </div>
-                    <div className="col-3">(631) 678-1332 Mobile <i class="fa fa-phone" aria-hidden="true"></i> <br />
-                    jessica.ashley.davis@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <div className="col-3">(631) 678-1332 Mobile <i className="fa fa-phone" aria-hidden="true"></i> <br />
+                    jessica.ashley.davis@gmail.com <i className="fa fa-envelope" aria-hidden="true"></i>
 
                     </div>
                     <div className="col-3">

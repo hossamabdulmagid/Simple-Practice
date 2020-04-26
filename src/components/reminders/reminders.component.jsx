@@ -8,27 +8,27 @@ const Reminders = () => {
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-1">
-                        <Span><i class="fa fa-pencil" aria-hidden="true"></i></Span>
+                        <Span><i className="fa fa-pencil" aria-hidden="true"></i></Span>
 
-                        <Span><i class="fa fa-usd" aria-hidden="true"></i></Span>
+                        <Span><i className="fa fa-usd" aria-hidden="true"></i></Span>
 
-                        <Span><i class="fa fa-pencil" aria-hidden="true"></i></Span>
+                        <Span><i className="fa fa-pencil" aria-hidden="true"></i></Span>
 
-                        <Span><i class="fa fa-smile-o" aria-hidden="true"></i> </Span>
+                        <Span><i className="fa fa-smile-o" aria-hidden="true"></i> </Span>
 
-                        <Span><i class="fa fa-heartbeat" aria-hidden="true"></i></Span>
+                        <Span><i className="fa fa-heartbeat" aria-hidden="true"></i></Span>
 
-                        <Span><i class="fa fa-pencil" aria-hidden="true"></i></Span>
+                        <Span><i className="fa fa-pencil" aria-hidden="true"></i></Span>
 
-                        <Span><i class="fa fa-pencil" aria-hidden="true"></i></Span>
+                        <Span><i className="fa fa-pencil" aria-hidden="true"></i></Span>
 
-                        <Span><i class="fa fa-file-o" aria-hidden="true"></i></Span>
+                        <Span><i className="fa fa-file-o" aria-hidden="true"></i></Span>
 
-                        <Span><i class="fa fa-credit-card-alt" aria-hidden="true"></i></Span>
+                        <Span><i className="fa fa-credit-card-alt" aria-hidden="true"></i></Span>
 
-                        <Span><i class="fa fa-credit-card-alt" aria-hidden="true"></i></Span>
+                        <Span><i className="fa fa-credit-card-alt" aria-hidden="true"></i></Span>
 
-                        <Span><i class="fa fa-pencil" aria-hidden="true"></i></Span>
+                        <Span><i className="fa fa-pencil" aria-hidden="true"></i></Span>
                     </div>
 
                     <div className="col-8">
@@ -47,17 +47,17 @@ const Reminders = () => {
 
                     </div>
                     <div className="col-3">
-                        <Span><i class="fa fa-times" aria-hidden="true"></i></Span>
-                        <Span><i class="fa fa-chevron-down" aria-hidden="true"></i></Span>
-                        <Span><i class="fa fa-chevron-down" aria-hidden="true"></i></Span>
-                        <Span><i class="fa fa-chevron-down" aria-hidden="true"></i></Span>
-                        <Span><i class="fa fa-chevron-down" aria-hidden="true"></i></Span>
-                        <Span><i class="fa fa-chevron-down" aria-hidden="true"></i></Span>
-                        <Span><i class="fa fa-chevron-down" aria-hidden="true"></i></Span>
-                        <Span><i class="fa fa-chevron-down" aria-hidden="true"></i></Span>
-                        <Span><i class="fa fa-chevron-down" aria-hidden="true"></i></Span>
-                        <Span><i class="fa fa-times" aria-hidden="true"></i></Span>
-                        <Span><i class="fa fa-times" aria-hidden="true"></i></Span>
+                        <Span><i className="fa fa-times" aria-hidden="true"></i></Span>
+                        <Span><i className="fa fa-chevron-down" aria-hidden="true"></i></Span>
+                        <Span><i className="fa fa-chevron-down" aria-hidden="true"></i></Span>
+                        <Span><i className="fa fa-chevron-down" aria-hidden="true"></i></Span>
+                        <Span><i className="fa fa-chevron-down" aria-hidden="true"></i></Span>
+                        <Span><i className="fa fa-chevron-down" aria-hidden="true"></i></Span>
+                        <Span><i className="fa fa-chevron-down" aria-hidden="true"></i></Span>
+                        <Span><i className="fa fa-chevron-down" aria-hidden="true"></i></Span>
+                        <Span><i className="fa fa-chevron-down" aria-hidden="true"></i></Span>
+                        <Span><i className="fa fa-times" aria-hidden="true"></i></Span>
+                        <Span><i className="fa fa-times" aria-hidden="true"></i></Span>
 
 
                     </div>

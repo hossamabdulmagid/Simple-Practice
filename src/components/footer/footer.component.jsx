@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="container-fluid">
                 <Footter>
                     <H2> © 2020 SimplePractice ·</H2>
-                    <Links> Terms</Links> · <Links> Privacy & Security </Links> . <Links>Support</Links> · <Links>Licensed Content </Links>
+                    <Links to="" >   Terms</Links> · <Links  to=""> Privacy & Security </Links> . <Links  to="">Support</Links> · <Links  to="">Licensed Content </Links>
                 </Footter>
             </div>
         </>

@@ -19,7 +19,7 @@ const Allert = () => {
                 </Container>
                 <Alert.Heading>
                     <SPan className="container">
-                        <i class="fa fa-check-circle" aria-hidden="true"></i>
+                        <i className="fa fa-check-circle" aria-hidden="true"></i>
                     </SPan>
                     <Span>Show 170 potential duplicates </Span>
                     <br />

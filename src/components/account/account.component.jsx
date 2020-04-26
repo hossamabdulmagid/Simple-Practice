@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { H2, Container, Ul, Li, LinkOption, LinkOptions, RapparForm, InPut, FForm, FFForm, LinkOptionz, Col } from './account.styles'
 import { Form } from 'react-bootstrap'
 import fetchUsers from '../../redux/data/dataAction';
@@ -10,6 +10,10 @@ const Account = ({ fetchUsers }) => {
     return (
         <>
             <div className="">
+                <div>
+               
+
+                </div>
                 <H2> Account Activity</H2>
                 <Container>
                     <Ul>
@@ -203,10 +207,16 @@ const Account = ({ fetchUsers }) => {
         </>
     );
 }
+const mapStateToProps = (state, props) => {
+    return {
+        users: state.users
+    }
+}
+
 const mapDispatchToProps = dispatch => ({
     fetchUsers: () => dispatch(fetchUsers())
 });
 export default connect(
-    null,
+    mapStateToProps,
     mapDispatchToProps
-)(Account);
+)(Account)
